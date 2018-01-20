@@ -1,0 +1,6 @@
+tacacs_svr:
+  build: .
+  container_name: tacacs_svr
+  ports:
+    - "49:49"
+
